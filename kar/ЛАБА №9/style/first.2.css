@@ -1,0 +1,57 @@
+* {
+    font-size: 30pt;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    background: lightsalmon;
+    text-align: center;
+    grid-template-columns: repeat(2, 40%) 20%;
+    grid-auto-rows: 18%;
+    border-radius: 20px;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightpink;
+    border: 3px solid lightcoral;
+    border-radius: 20px;
+    grid-row: 1/10;
+    align-items: center;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightpink;
+    border: 3px solid lightcoral;
+    border-radius: 20px;
+    grid-row: 1/5;
+    padding: 10px;
+}
+
+.three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightpink;
+    border: 3px solid lightcoral;
+    border-radius: 20px;
+    grid-row: 5/10;
+}
+
+.four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    background: lightpink;
+    border: 3px solid lightcoral;
+    border-radius: 20px;
+    grid-row: 1/10;
+    align-items: center;
+}

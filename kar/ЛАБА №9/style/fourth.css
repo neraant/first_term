@@ -1,0 +1,75 @@
+.container {
+    background: lightgoldenrodyellow;
+    height: 965px;
+}
+
+.container .row div {
+    background: lightpink;
+    border-radius: 10px;
+    text-align: center;
+    width: max-content;
+}
+
+img {
+    background: none;
+    width: 50px;
+    padding-top: 5px;
+}
+
+ul li {
+    display: inline-block;
+    list-style-type: none;
+    width: 160px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.first {
+    display: flex;
+    margin: 50px 0 0 120px;
+    justify-content: space-between;
+}
+
+.second {
+    display: flex;
+    margin: 50px 0 0 0px;
+    justify-content: space-between;
+}
+
+.zero {
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.text {
+    padding: 13px 8px 0 8px;
+}
+
+a {
+    text-decoration: none;
+    background: whitesmoke;
+    box-shadow: 2px 2px 2px black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    box-shadow: 1px 1px 1px black;
+    transition: 0.2s;
+}
+
+.image {
+    padding: 9px;
+}
+
+img {
+    border-radius: 10px;
+}

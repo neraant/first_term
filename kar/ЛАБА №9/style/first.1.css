@@ -1,0 +1,40 @@
+* {
+    font-size: 30pt;
+}
+
+.grid {
+    display: grid;
+    background: lightsalmon;
+    text-align: center;
+    grid-template-columns: 20% repeat(2, 40%);
+    grid-auto-rows: 18%;
+    border-radius: 20px;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightpink;
+    border: 3px solid lightcoral;
+    border-radius: 20px;
+    grid-row: 1/10;
+    padding: 10px 0;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    background: lightpink;
+    border: 3px solid lightcoral;
+    border-radius: 20px;
+    grid-row: 1/10;
+}
+.three {
+    display: flex;
+    align-items: center;
+    background: lightpink;
+    border: 3px solid lightcoral;
+    border-radius: 20px;
+    grid-row: 1/10;
+}

@@ -1,0 +1,106 @@
+body {
+    background: lightpink;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "nav  content__header content__header content__header"
+    "nav  content__article content__article content__aside"
+    "nav  content__article content__article content__aside"
+    "nav  content__article content__article content__aside"
+    "content__footer content__footer content__footer content__footer"
+    ;
+    grid-gap: 5px; 
+    grid-auto-rows: minmax(auto, 110px);
+    grid-auto-columns: minmax(200px);
+}
+
+.container div {
+    background: rgb(237, 162, 162);
+    box-shadow: 2px 2px 2px rgb(148, 100, 107);
+    border-radius: 10px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: nav;
+    padding: 25px 0px 0 0;
+}
+
+.content__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: content__header;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(110, 83, 104);
+    text-shadow: 2px 2px 2px rgb(253, 207, 246);
+    padding: 15px;
+}
+
+.content__article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: content__article;
+    text-align: center;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(110, 83, 104);
+}
+
+.content__aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: content__aside;
+    text-align: center;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(110, 83, 104);
+}
+
+.content__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: content__footer;
+    height: 30px;
+    text-align: center;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(110, 83, 104);
+}
+
+ul li {
+    list-style-type: none;
+    padding: 15px;
+    margin-left: -40px;
+}
+
+a {
+    text-decoration: none;
+    background: whitesmoke;
+    box-shadow: 2px 2px 2px rgb(101, 36, 34);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a:link {
+    color: rgb(110, 83, 104);
+}
+
+a:visited {
+    color: rgb(110, 83, 104);
+}
+
+a:hover {
+    box-shadow: 1px 1px 1px rgb(101, 36, 34);
+    transition: 0.2s;
+}

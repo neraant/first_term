@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+
+.list li {
+    display: inline;
+    padding: 0px 0px 10px 20px;
+}
+
+.list {
+    position: relative;
+}
+
+.sublist {
+    position: absolute;
+    display: none;
+    margin: 0px 0 0 -20px;
+} 
+
+#menu:hover .sublist {
+    display: block;
+}
+
+.sublist li {
+    margin: 0 0 -2px 0;
+} 

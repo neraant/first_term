@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+    transition: 0.5s;
+}
+
+.first__task {
+    text-align: center;
+}
+
+.first__image:hover {
+    transform: scale(0.5);
+}
+
+.second__image:hover {
+    transform: rotate(45deg);
+}
+
+.third__image:hover {
+    transform: translate(50px);
+}
+
+.fourth__image:hover {
+    transform: rotate(-20deg);
+}
+/* ----------------------------------------- */
+.second__task {
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 1800px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.fifth__image {
+    transform: perspective(300px) rotateX(20deg);
+}
+
+.sixth__image {
+    transform: perspective(300px) rotateY(15deg);
+}
+
+.seventh__image {
+    transform: perspective(300px) rotateX(20deg);
+}
+
+.eighth__image {
+    transform: perspective(300px) rotateY(-15deg);
+}
+/* ----------------------------------------- */
+.third__task {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin: 100px 0 0 100px;
+}
+
+.button__1 {
+    display: block;
+    padding: 20px 55px;
+    text-align: center;
+}
+
+.button__1:hover {
+    color: white;
+    background: black;
+    transition: 0.1s;
+} 
+.button__2 {
+    display: block;
+    padding: 20px 55px;
+    text-align: center;
+}
+
+.button__2:hover {
+    outline: 5px solid yellow;
+    border: 5px solid red;
+    transition: 0.1s;
+} 
+
+/* .butt:hover {
+    border: 5px solid yellow;
+    transition: 0.1s;
+}  */
+
+.button__3 {
+    display: block;
+    padding: 20px 55px;
+    text-align: center;
+}
+
+.button__3:hover {
+    border-top: 5px solid green;
+    border-bottom: 5px solid green;
+    transition: 0.1s;
+} 
+.button__4 {
+    display: block;
+    padding: 20px 55px;
+    text-align: center;
+}
+
+.button__4:hover {
+    border-right: 5px solid blue;
+    border-left: 5px solid blue;
+    transition: 0.1s;
+} 
+.button__5 {
+    display: block;
+    padding: 20px 55px;
+    text-align: center;
+}
+
+.button__5:hover {
+    background: radial-gradient(yellow, magenta, blue, aqua 80%);
+    transition: 0.2s;
+} 
+
+.title {
+    position: relative;
+    text-align: center;
+    animation: title 5s infinite;
+}
+
+/* @keyframes title {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0;
+    }
+}  */

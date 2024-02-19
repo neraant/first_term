@@ -1,0 +1,49 @@
+* {
+    font-size: small;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5, 19%);
+    grid-template-rows: repeat(5, 25%);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+}
+
+.grid div {
+    display: flex;
+    background: lightgreen;
+    align-items: center;
+    justify-content: center;
+}
+
+.block__10 {
+    grid-row: 3/5;
+    grid-column: 1/3;
+    text-align: center;
+    padding: 5px;
+}
+
+.block__9 {
+    grid-row: 2/4;
+    grid-column: 4/6;
+}
+
+#gif {
+    width: 400px;
+}
+
+.photo {
+    width: 180px;
+}
+
+img {
+    width: 180px;
+}
+
+.rabbit {
+    width: 150px;
+}

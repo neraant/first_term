@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #73607D;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightseagreen;
+}
+
+img {
+    width: 26px;
+    display: none;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    margin: -5px -79px;
+
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav .list .list__item {
+    display: inline-block;
+    padding: 5px 80px;
+    border: 1px solid black;
+}
+
+.list > li {
+    position: relative;
+    padding: 15px;
+}
+
+.sublist {
+    position: absolute;
+    margin: 5px 0 0 -120px;
+}
+
+.nav .sublist {
+    display: none;
+}
+
+#special:hover .sublist {
+    display: block;
+}
+
+#special:hover {
+    background-position: 0 -34px;
+}
+
+.sublist li {
+    width: 181px;
+    text-align: center;
+    padding: 5px 0 5px 0px;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.sublist__item:hover {
+    background: #C1B9AE;
+    transition: 0.5s;
+}
+
+.list .list__item:hover {
+    background: url(/media/facultet.png) no-repeat 0 0;
+    background-color: #FDC664;
+}

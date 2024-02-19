@@ -1,0 +1,49 @@
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.list > li {
+    position: relative;
+    border: 1px solid black;
+    background: yellow;
+    width: 100px;
+    padding: 10px 70px 10px 20px;
+}
+
+a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.sublist {
+    position: absolute;
+    margin: 10px 0 0 -61px;
+}
+
+.nav .sublist {
+    display: none;
+}
+
+.list:hover .sublist {
+    display: block;
+}
+
+.sublist li {
+    border: 2px dashed black;
+    margin: 0 0 -2px 0;
+    background: orange;
+}
