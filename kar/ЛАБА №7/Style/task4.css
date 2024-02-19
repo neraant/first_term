@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    margin: 200px 0 0 100px;
+}
+
+.image__1 {
+    animation: first 5s;
+}
+
+.image__2 {
+    animation: second 5s;
+}
+
+.image__3 {
+    animation: third 5s;
+}
+
+.image__4 {
+    animation: fourth 5s;
+}
+
+@keyframes first {
+    0% {
+        transform: perspective(100px) rotateY(50deg);
+        margin-left: 100px;
+    }
+    50% {
+        margin-left: 2px;
+    }
+    100% {
+        margin-left: 2px;
+    }
+}
+
+@keyframes second {
+    0% {
+        transform: perspective(100px) rotateY(50deg);
+        margin-left: -130px;
+    }
+    50% {
+        margin-left: -140px;
+    }
+    100% {
+        margin-left: 2px;
+        filter: blur(10px);
+    }
+}
+
+@keyframes third {
+    0% {
+        transform: perspective(100px) rotateY(50deg);
+        margin-left: -130px;
+    }
+    50% {
+        margin-left: -140px;
+    }
+    100% {
+        margin-left: 2px;
+        filter: grayscale(1);
+    }
+}
+
+@keyframes fourth {
+    0% {
+        transform: perspective(100px) rotateY(50deg);
+        margin-left: 100px;
+    }
+    50% {
+        margin-left: 2px;
+    }
+    100% {
+        margin-left: 2px;
+        filter: invert(1);
+    }
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    animation: title 5s infinite;
+}
+
+@keyframes title {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0;
+    }
+}

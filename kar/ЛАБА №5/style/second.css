@@ -1,0 +1,29 @@
+table{
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    border-spacing: 0;
+}
+
+th, td{
+    border: solid 1px rgb(99, 99, 99);
+    empty-cells: hide;
+}
+
+.num, .nums {
+    color: black;
+}
+
+.nums::after {
+    content: '\21D1';
+}
+
+.num::after {
+    content: '\21D4';
+}
+
+.title {
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+}

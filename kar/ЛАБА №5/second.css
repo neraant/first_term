@@ -1,0 +1,51 @@
+table{
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    border-spacing: 0;
+}
+
+th, td{
+    border: solid 1px rgb(99, 99, 99);
+    empty-cells: hide;
+}
+
+.num, .nums {
+    color: black;
+}
+
+.nums::after {
+    content: '\21D1';
+}
+
+.num::after {
+    content: '\21D4';
+}
+
+.title {
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+td:nth-child(2n) {
+    background-color: #00BFF0;
+}
+
+td:nth-child(3n) {
+    background-color: purple;
+}
+
+td:nth-child(4n) {
+    background-color: green;
+}
+
+caption {
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+th {
+    background-color: darkblue;
+}

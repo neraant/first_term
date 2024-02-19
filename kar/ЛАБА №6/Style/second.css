@@ -1,0 +1,18 @@
+.pics {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+figure {
+    background: darkslateblue;
+    padding:15px ;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+img {
+    width: 500px;
+}

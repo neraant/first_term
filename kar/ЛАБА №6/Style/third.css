@@ -1,0 +1,55 @@
+.container {
+    display: inline-flex;
+    gap: 20px;
+}
+
+.block__1 {
+    border: solid 2px black;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(blue, red);
+}
+
+.block__2 {
+    border: solid 2px black;
+    width: 200px;
+    height: 200px;
+    background: repeating-linear-gradient(45deg, red 0% 3%, blue 3% 6%);
+}
+
+.block__3 {
+    border: solid 2px black;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle 120px, yellow, green);
+}
+
+.block__4 {
+    border: solid 2px black;
+    width: 200px;
+    height: 200px;
+    background: repeating-radial-gradient(circle, green 0% 8%, yellow 3% 15%);
+}
+
+.block__5 {
+    border: solid 2px black;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(red, blue);
+    background: radial-gradient(yellow , green 55%, transparent, transparent),
+                                linear-gradient(blue, purple)
+}
+
+.block__6 {
+    border: solid 2px black;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to right, yellow, green 50%, transparent, transparent),
+                      linear-gradient(to top, purple 10%, blue 30%, white 40%, gray 65%, black 90%)
+}
+
+
+
+
+  
+
