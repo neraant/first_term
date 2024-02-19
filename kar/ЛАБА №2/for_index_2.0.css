@@ -1,0 +1,34 @@
+h1, h2,h3
+{
+
+    color: #800080;
+    font-family: Monotype Corsiva;
+
+}
+
+.first
+{
+
+color: red;
+font-family: 'Times New Roman', Times, serif;
+font-size: 18pt;
+
+}
+
+.second
+{
+
+color: yellow;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20pt;
+
+}
+
+.third
+{
+
+color: green;
+font-family: 'Times New Roman', Times, serif;
+font-size: 22pt;
+
+}
