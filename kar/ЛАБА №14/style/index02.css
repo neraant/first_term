@@ -1,0 +1,18 @@
+table td, table tr .col, table tr .row {
+  border: 1px solid black;
+}
+
+p {
+  color: blue;
+}
+
+table {
+  width: 900px;
+  border-collapse: collapse;
+}
+table tr .row {
+  width: 2;
+}
+table tr .col {
+  width: 2;
+}

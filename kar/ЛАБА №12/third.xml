@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style/first.css" type="text/css"?>
+
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema/third.xsd">
+    <creators>
+        <creator>Владмир Бургеретти</creator>
+        <creator>Семён Черенок</creator>
+        <creator>Бадили Тейстович</creator>
+    </creators>
+    <menu__items>
+        <menu__item>Бургер</menu__item>
+        <menu__item>Чизбургер</menu__item>
+        <menu__item>Биг-тейсти</menu__item>
+    </menu__items>
+    <year>
+        <burger__year>1285 год</burger__year>
+        <burger__year>1109 год</burger__year>
+        <burger__year>2023 год</burger__year>
+    </year>
+</menu>

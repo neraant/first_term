@@ -1,0 +1,24 @@
+$paragraphColor: blue;
+%border {
+    border: 1px solid black;
+}
+
+p {
+    color: $paragraphColor;
+}
+
+table {
+    width: 900px;
+    border-collapse:collapse;
+    tr .row{
+        @extend %border;
+        width: 2;
+    }
+    tr .col {
+        @extend %border;
+        width: 2;
+    }
+    td {
+        @extend %border;
+    }
+}

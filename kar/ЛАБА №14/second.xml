@@ -1,0 +1,19 @@
+<svg version="1.1" baseProfile="full" width="1500" height="800" xmlns="http://www.w3.org/2000/svg">
+
+    <path d="M 660, 50 L 800, 250 L 720, 250 L 850, 500 L 720, 500 L 720, 580 L 600, 580 L 600, 500 L 470, 500 L 600, 250 L 520, 250 L 660, 50" stroke="black" stroke-width="3" fill="none" />
+    
+    <path d="M 720, 80 L 740, 130 L 790, 140 L 750, 170 L 760, 220 L 720, 190 L 680, 220 L 690, 170 L 650, 140 L 700, 130 Z" fill="yellow">
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 640 440" to="45 200 100" dur="1s" repeatCount="indefinite" />
+    </path>
+
+    <path d="M 650, 340 a 20,20 0 1,0 40,0 a 20,20 0 1,0 -40,0" fill="red">
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 640 440" to="-100 640 440" dur="1s" repeatCount="indefinite" />
+    </path>
+    
+    <path d="M 620, 420 L 640, 460 L 600, 460 Z" fill="blue">
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 640 440" to="45 640 440" dur="1s" repeatCount="indefinite" />
+    </path>
+
+    <use href="#polyline"/>
+
+</svg>

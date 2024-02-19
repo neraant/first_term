@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu [
+<!ELEMENT menu (creators, menu__items, year)>
+    <!ELEMENT creators (creator+)>
+    <!ENTITY first__name "Владмир Бургеретти">
+    <!ENTITY second__name "Семён Черенок">
+    <!ENTITY third__name "Бадили Тейстович">
+    <!ELEMENT creator (#PCDATA)>
+    <!ELEMENT menu__items (menu__item+)>
+    <!ELEMENT menu__item (#PCDATA)>
+    <!ELEMENT year (burger__year+)>
+    <!ENTITY first__year "1285 год">
+    <!ENTITY second__year "1109 год">
+    <!ENTITY third__year "2023 год">
+    <!ELEMENT burger__year (#PCDATA)>
+]>
+<?xml-stylesheet href="style/first.css" type="text/css"?>
+
+<menu>
+    <creators>
+        <creator>&first__name;</creator>
+        <creator>&second__name;</creator>
+        <creator>&third__name;</creator>
+    </creators>
+    <menu__items>
+        <menu__item>Бургер</menu__item>
+        <menu__item>Чизбургер</menu__item>
+        <menu__item>Биг-тейсти</menu__item>
+    </menu__items>
+    <year>
+        <burger__year>&first__year;</burger__year>
+        <burger__year>&second__year;</burger__year>
+        <burger__year>&third__year;</burger__year>
+    </year>
+</menu>

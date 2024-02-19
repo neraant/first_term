@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First</title>
+    <link rel="stylesheet" href="style/first.css">
+    <script src="script/app.js" defer>
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="photo__1" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">
+            <img src="media/pig.png" alt="picture">
+            <div class="description">
+                <p>It's a very strong pig! <br>
+                Health: 178; <br>
+                Damage: 53;</p>
+            </div>
+        </div>
+        <div id="button" class="photo__2">
+            <img src="media/strong pig.png" alt="picture" onclick="addBorder(this)"">
+        </div>
+        <div class="photo__3">
+            <img src="media/pig.png" alt="picture">
+        </div>
+        <div class="photo__4"  onmouseover="changeImage(this, 'media/pig.png')" onmouseout="changeImage(this, 'media/strong pig.png')">
+            <img src="media/strong pig.png" alt="picture">
+        </div>
+    </div>
+</body>
+</html>

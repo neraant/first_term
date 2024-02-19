@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-size: 40px;
+}
+
+menu {
+    display: table;
+    margin: 0 auto;
+    margin-top: 400px;
+    text-align: center;
+}
+
+creators, menu__items, year {
+    display: table-row;
+    padding: 10px;
+}
+
+creator, menu__item, burger__year {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid rgb(24, 24, 89);
+    
+}
+
+creator, burger__year  {
+    background: lightskyblue;
+}
+
+menu__item {
+    background: lightblue;
+}

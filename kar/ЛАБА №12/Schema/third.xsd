@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs ="http://www.w3.org/2001/XMLSchema">
+<xs:element name="menu">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="creators">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="creator" type="xs:string"/>
+                        <xs:element name="creator" type="xs:string"/>
+                        <xs:element name="creator" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="menu__items">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="menu__item" type="xs:string"/>
+                        <xs:element name="menu__item" type="xs:string"/>
+                        <xs:element name="menu__item" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="year">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="burger__year" type="xs:string"/>
+                        <xs:element name="burger__year" type="xs:string"/>
+                        <xs:element name="burger__year" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

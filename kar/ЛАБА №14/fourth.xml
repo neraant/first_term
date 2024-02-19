@@ -1,0 +1,33 @@
+<svg version="1.1" baseProfile="full" width="1500" height="1000" xmlns="http://www.w3.org/2000/svg">
+    <defs> 
+        <linearGradient id="circleFill" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="10%" style="stop-color: red;"/>
+            <stop offset="80%" style="stop-color: green;"/>
+        </linearGradient>
+        <linearGradient id="rectangleFill">
+            <stop offset="40%" stop-color="green"/>
+            <stop offset="60%" stop-color="orange"/>
+        </linearGradient>
+        <borderSquare id="square">
+            <stop offset="40%" stop-color="green" style=""/>
+            <stop offset="60%" stop-color="orange"/>
+        </borderSquare>
+    </defs>
+
+    <circle id="circle" cx="100" cy="100" r="50" fill="url(#circleFill)">
+        <animate attributeName="fill" values="url(#gradient);blue;url(#gradient)" dur="1s" repeatCount="1" begin="mouseover" end="mouseout"/>
+    </circle>
+
+    <polygon id="polygon" points="180 60, 310 60, 310 145, 180 145" style="fill:red;stroke:black;stroke-width:5;">
+        <animate attributeName="stroke-opacity" values="0;1" dur="2s"/>
+    </polygon>
+    
+    <ellipse id="ellipse" cx="430" cy="100" rx="100" ry="50" style="fill:green"></ellipse>
+
+    <polygon id="rectangle" points="600 60, 680 180, 520 180, 600 60" style="fill:url(#rectangleFill);stroke:black;stroke-width:5;">
+        <animate attributeName="stroke" values="grey" dur="2s" begin="mouseover"/>
+        <animate attributeName="stroke" values="black" dur="2s" begin="mouseout"/>
+    </polygon>
+
+    <polyline id="polyline" points="50 170, 400 170, 360 220, 700 220" style="fill:none;stroke:purple;stroke-width:4;stroke-linecap:round"></polyline>
+</svg>
