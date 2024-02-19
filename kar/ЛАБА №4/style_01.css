@@ -1,0 +1,72 @@
+.main{
+    display: inline-flex;
+    gap:5px
+}
+
+.fir{
+    margin-top: 10px;
+    border: 8px solid rgb(255, 0, 0);
+    padding: 10px;
+}
+
+.sec{
+    margin-top: 10px;
+    border: 8px dashed rgb(0, 255, 0);
+    padding: 10px;
+}
+
+.thi{
+    margin-top: 10px;
+    border: 8px dotted rgb(0, 0, 255);
+    padding: 10px;
+}
+
+.fou{
+    margin-top: 10px;
+    border: 8px double rgb(0, 255, 255);
+    padding: 10px;
+}
+
+.fif{
+    margin-top: 10px;
+    border: 8px groove rgb(255, 0, 255);
+    padding: 10px;
+} 
+
+.six{
+    margin-top: 10px;
+    border: 8px inset rgb(255, 255, 0);
+    padding: 10px;
+}
+
+.sev{
+    margin-top: 10px;
+    border: 8px solid rgb(0, 0, 0);
+    padding: 10px;
+} 
+
+span{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background: #FFA500;
+    border: 2px solid #FF4500;
+}
+
+.text_1{
+    width: 400px;
+    text-align: center;
+    border: 2px solid #FF7F50;
+}
+
+.text_2{
+    border: 5px solid red;
+    border-radius: 20px/40px;
+    text-shadow: rgba(0,0,0,.5);
+    box-shadow: inset 2px 2px 8px 8px rgba(0,0,0,.5);
+    overflow: auto;
+}
+
+.text_3{
+    border: solid #FF6347;
+}
